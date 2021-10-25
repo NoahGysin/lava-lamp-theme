@@ -1,0 +1,26 @@
+/**
+* @name lava lamp
+* @version 1.0.0
+* @description a theme that will burn your eyes out
+* @author Noah
+* @website https://noahgys.in
+* @authorId 345633689239289858
+*/
+
+.scroller-1Bvpku, .scroller-RmtA4e, .panels-j1Uci_, .chat-3bRxxu, .base-3dtUhz, .content-98HsJk, .sidebar-2K8pFh, .container-3w7J-x, .container-1r6BKw.themed-ANHk51, .content-yTz4x3, .members-1998pB, .members-1998pB, .members-1998pB>div, .wrapper-3NnKdC, .guilds-1SWlCJ {
+    background-color: transparent;
+}
+
+.container-2lgZY8 {
+    background: rgb(236,231,51);
+    background: radial-gradient(circle, rgba(236,231,51,1) 0%, rgba(255,0,0,1) 100%);
+
+    background-size: 400% 400%;
+    animation: BGGradientAnim 60s ease infinite;
+}
+
+@keyframes BGGradientAnim {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
